@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 32px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  .singUpButton {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+}
+.searchInput {
+  max-width: 360px;
+  width: 100%;
+  margin-right: 20px;
+  .input {
+    border-radius: 50px;
+    width: 100%;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(50, 50, 50, 0.5);
+    background-color: #252529;
+    color: #fff;
+    outline: none;
+  }
+  input::placeholder {
+    color: #a2a5b5; /* 设置占位符文本颜色 */
+  }
+}
+.MaskContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  width: 90%;
+  max-width: 400px;
+  height: 200px;
+  background: #fff;
+  border-radius: 10px;
+}
+.sendButton {
+  background-color: #333;
+  color: #fff;
+}

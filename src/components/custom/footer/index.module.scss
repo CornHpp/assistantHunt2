@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #fff;
+  height: 4.75rem;
+  padding-top: 3px;
+  z-index: 3;
+  border-top: 1px solid var(--border);
+  :global {
+    .adm-tab-bar {
+      width: 100%;
+    }
+    .adm-tab-bar-item-title {
+      margin-top: 0.4rem;
+    }
+    .adm-tab-bar-item-active .adm-tab-bar-item-title {
+      color: var(--TextColorBlack);
+      font-weight: 600;
+    }
+  }
+}

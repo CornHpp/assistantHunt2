@@ -1,0 +1,18 @@
+.boardStyleCss {
+  background: hsla(244, 6%, 50%, 0.1);
+  border-radius: 12px;
+  padding: 20px 24px 0;
+  .boardtitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    div {
+      font-weight: 600;
+    }
+  }
+}
